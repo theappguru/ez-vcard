@@ -49,45 +49,45 @@ public class TelephoneType extends VCardParameter {
 	private static final VCardParameterCaseClasses<TelephoneType> enums = new VCardParameterCaseClasses<TelephoneType>(TelephoneType.class);
 
 	@SupportedVersions({ V2_1, V3_0 })
-	public static final TelephoneType BBS = new TelephoneType("bbs");
+	public static final TelephoneType BBS = new TelephoneType("BBS");
 
 	@SupportedVersions({ V2_1, V3_0 })
-	public static final TelephoneType CAR = new TelephoneType("car");
+	public static final TelephoneType CAR = new TelephoneType("CAR");
 
-	public static final TelephoneType CELL = new TelephoneType("cell");
+	public static final TelephoneType CELL = new TelephoneType("CELL");
 
-	public static final TelephoneType FAX = new TelephoneType("fax");
+	public static final TelephoneType FAX = new TelephoneType("FAX");
 
-	public static final TelephoneType HOME = new TelephoneType("home");
-
-	@SupportedVersions({ V2_1, V3_0 })
-	public static final TelephoneType ISDN = new TelephoneType("isdn");
+	public static final TelephoneType HOME = new TelephoneType("HOME");
 
 	@SupportedVersions({ V2_1, V3_0 })
-	public static final TelephoneType MODEM = new TelephoneType("modem");
+	public static final TelephoneType ISDN = new TelephoneType("ISDN");
 
 	@SupportedVersions({ V2_1, V3_0 })
-	public static final TelephoneType MSG = new TelephoneType("msg");
+	public static final TelephoneType MODEM = new TelephoneType("MODEM");
 
-	public static final TelephoneType PAGER = new TelephoneType("pager");
+	@SupportedVersions({ V2_1, V3_0 })
+	public static final TelephoneType MSG = new TelephoneType("MSG");
+
+	public static final TelephoneType PAGER = new TelephoneType("PAGER");
 
 	@SupportedVersions(V3_0)
-	public static final TelephoneType PCS = new TelephoneType("pcs");
+	public static final TelephoneType PCS = new TelephoneType("PCS");
 
 	@SupportedVersions({ V2_1, V3_0 })
-	public static final TelephoneType PREF = new TelephoneType("pref");
+	public static final TelephoneType PREF = new TelephoneType("PREF");
 
 	@SupportedVersions(V4_0)
-	public static final TelephoneType TEXT = new TelephoneType("text");
+	public static final TelephoneType TEXT = new TelephoneType("TEXT");
 
 	@SupportedVersions(V4_0)
-	public static final TelephoneType TEXTPHONE = new TelephoneType("textphone");
+	public static final TelephoneType TEXTPHONE = new TelephoneType("TEXTPHONE");
 
-	public static final TelephoneType VIDEO = new TelephoneType("video");
+	public static final TelephoneType VIDEO = new TelephoneType("VIDEO");
 
-	public static final TelephoneType VOICE = new TelephoneType("voice");
+	public static final TelephoneType VOICE = new TelephoneType("VOICE");
 
-	public static final TelephoneType WORK = new TelephoneType("work");
+	public static final TelephoneType WORK = new TelephoneType("WORK");
 
 	private TelephoneType(String value) {
 		super(value);
