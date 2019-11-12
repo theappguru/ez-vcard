@@ -89,7 +89,7 @@ public class TelephoneType extends VCardParameter {
 
 	public static final TelephoneType WORK = new TelephoneType("WORK");
 
-	private TelephoneType(String value) {
+	public TelephoneType(String value) {
 		super(value);
 	}
 
